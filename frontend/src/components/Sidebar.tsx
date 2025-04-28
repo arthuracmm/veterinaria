@@ -1,4 +1,5 @@
 import { HeartPlus, Home, PawPrint, Clipboard } from "lucide-react"
+import logotipo from '/images/logowtxt.png'
 
 export function Sidebar() {
     const items = [
@@ -30,8 +31,10 @@ export function Sidebar() {
     }
     return (
         <div className="flex flex-col flex-1 h-screen w-50 bg-green-200 p-4 relative items-center" >
-            <img src="https://rseat.pics/" alt="a" className="w-full aspect-square object-cover"/>
-            <div className="flex flex-col gap-4 w-full">
+            <a href="/" className="flex items-center justify-center w-full">
+            <img src={logotipo} alt="a" className="w-[80%] hover:scale-110 cursor-pointer transition-all hover:bg-green-300 p-2 box-content rounded-md"/>
+            </a>
+            <div className="flex flex-col gap-4 w-full mt-4">
                 {items.map((item) => (
                     <a key={item.name} href={item.path} className={`flex items-center gap-2 p-2 rounded-md hover:bg-green-300 transition-all ${verifyPath(item.path)}`}>
                         <item.icon size={20} className="text-green-800" />
