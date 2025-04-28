@@ -52,7 +52,7 @@
       "raca": "Shitzu",
       "idade": "10",
       "peso": "5",
-      "donoId": "1"
+      "donoId": 1
     }
   ],
   "donos": [

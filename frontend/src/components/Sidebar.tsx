@@ -30,8 +30,8 @@ export function Sidebar() {
         return currentPath === path ? 'bg-green-300' : 'bg-green-200';
     }
     return (
-        <div className="flex flex-col flex-1 h-screen w-50 bg-green-200 p-4 relative items-center" >
-            <a href="/" className="flex items-center justify-center w-full">
+        <div className="flex flex-col flex-1 fixed h-screen w-50 bg-green-200 p-4 items-center" >
+            <a href="https://github.com/arthuracmm" className="flex items-center justify-center w-full">
             <img src={logotipo} alt="a" className="w-[80%] hover:scale-110 cursor-pointer transition-all hover:bg-green-300 p-2 box-content rounded-md"/>
             </a>
             <div className="flex flex-col gap-4 w-full mt-4">

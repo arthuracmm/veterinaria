@@ -18,7 +18,10 @@ export function Cadastro() {
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
-        setForm({ ...form, [name]: value });
+        setForm({
+            ...form,
+            [name]: name === "donoId" ? parseInt(value) || "" : value,
+        });
     };
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -70,7 +73,7 @@ export function Cadastro() {
                 <Sidebar />
             </div>
 
-            <div className="flex flex-1 flex-col items-center justify-around">
+            <div className="flex flex-1 flex-col items-center justify-around ml-52 h-screen">
                 <a href="/" className="flex items-center justify-center w-full">
                     <img src={logotipotxt} alt="a" className="w-50 cursor-pointer p-2 box-content rounded-md" />
                 </a>
