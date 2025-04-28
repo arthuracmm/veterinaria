@@ -1,0 +1,120 @@
+{
+  "animais": [
+    {
+      "id": 1,
+      "nome": "Rex",
+      "especie": "Cão",
+      "raca": "Golden Retriever",
+      "idade": 5,
+      "peso": 30,
+      "donoId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Luna",
+      "especie": "Cão",
+      "raca": "Labrador",
+      "idade": 3,
+      "peso": 25,
+      "donoId": 2
+    },
+    {
+      "id": 3,
+      "nome": "Thor",
+      "especie": "Gato",
+      "raca": "Vira Lata",
+      "idade": 4,
+      "peso": 5,
+      "donoId": 3
+    },
+    {
+      "id": 4,
+      "nome": "Bella",
+      "especie": "Cão",
+      "raca": "Poodle",
+      "idade": 2,
+      "peso": 8,
+      "donoId": 4
+    },
+    {
+      "id": 5,
+      "nome": "Max",
+      "especie": "Cão",
+      "raca": "Bulldog",
+      "idade": 6,
+      "peso": 20,
+      "donoId": 5
+    },
+    {
+      "id": "31a7",
+      "nome": "dasda",
+      "especie": "Cachorro",
+      "raca": "Shitzu",
+      "idade": "10",
+      "peso": "5",
+      "donoId": "1"
+    }
+  ],
+  "donos": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "telefone": "(11) 91234-5678",
+      "email": "joao.silva@email.com",
+      "endereco": "Rua das Flores, 123",
+      "cpf": "123.456.789-00"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "telefone": "(21) 99876-5432",
+      "email": "maria.oliveira@email.com",
+      "endereco": "Avenida Brasil, 456",
+      "cpf": "987.654.321-00"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Pereira",
+      "telefone": "(31) 98765-4321",
+      "email": "carlos.pereira@email.com",
+      "endereco": "Rua Minas Gerais, 789",
+      "cpf": "456.123.789-00"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Costa",
+      "telefone": "(41) 91234-8765",
+      "email": "ana.costa@email.com",
+      "endereco": "Travessa das Palmeiras, 101",
+      "cpf": "789.456.123-00"
+    },
+    {
+      "id": 5,
+      "nome": "Ricardo Souza",
+      "telefone": "(51) 92345-6789",
+      "email": "ricardo.souza@email.com",
+      "endereco": "Alameda Santos, 202",
+      "cpf": "321.654.987-00"
+    }
+  ],
+  "consultas": [
+    {
+      "id": "4a33",
+      "animalId": "1",
+      "data": "2025-05-15",
+      "horario": "07:00",
+      "motivo": "Dores e inflamação nos olhos",
+      "observacoes": "segunda consulta no mes de maio"
+    }
+  ],
+  "cirurgias": [
+    {
+      "id": "ca1a",
+      "animalId": "1",
+      "data": "2025-05-15",
+      "tipo": "Olhos",
+      "veterinarioResponsavel": "DR. Rafael",
+      "observacoes": "qadadada"
+    }
+  ]
+}
