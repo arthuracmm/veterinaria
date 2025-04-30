@@ -38,21 +38,21 @@
     },
     {
       "id": 5,
+      "nome": "Ryuk",
+      "especie": "Gato",
+      "raca": "Siamês",
+      "idade": 1,
+      "peso": 3,
+      "donoId": 5
+    },
+    {
+      "id": 6,
       "nome": "Max",
       "especie": "Cão",
       "raca": "Bulldog",
       "idade": 6,
       "peso": 20,
       "donoId": 5
-    },
-    {
-      "id": "31a7",
-      "nome": "dasda",
-      "especie": "Cachorro",
-      "raca": "Shitzu",
-      "idade": "10",
-      "peso": "5",
-      "donoId": 1
     }
   ],
   "donos": [
@@ -98,14 +98,6 @@
     }
   ],
   "consultas": [
-    {
-      "id": "4a33",
-      "animalId": "1",
-      "data": "2025-05-15",
-      "horario": "07:00",
-      "motivo": "Dores e inflamação nos olhos",
-      "observacoes": "segunda consulta no mes de maio"
-    }
   ],
   "cirurgias": [
     {

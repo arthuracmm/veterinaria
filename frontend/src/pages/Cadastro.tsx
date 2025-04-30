@@ -18,10 +18,7 @@ export function Cadastro() {
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
-        setForm({
-            ...form,
-            [name]: name === "donoId" ? parseInt(value) || "" : value,
-        });
+        setForm({ ...form, [name]: value });
     };
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
